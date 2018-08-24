@@ -10,7 +10,7 @@ h1 {
 }
 
 p {
-  color: red;
+  color: blue;
 }
 
 span {
@@ -18,9 +18,9 @@ span {
   background-color: lime;
 }
 
-p, li {
+li {
   text-decoration: underline;
-  color: blue;
+  color: red;
 }
 
 /* Class selectors */
@@ -45,6 +45,25 @@ p, li {
 
 .warning {
   background-color: #ff9999;
-  border-left: 6px solid #aa3333;
+  border-left: 6px solid #ff3333;
 }
 
+#polite {
+  font-family: cursive;
+}
+
+#rude {
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+#first {
+  background-color: #D4AF37;
+}
+
+#second {
+  background-color: #a8a8a8;
+}
+
+#third {
+  background-color: #965A38;
