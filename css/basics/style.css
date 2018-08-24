@@ -67,3 +67,43 @@ li {
 
 #third {
   background-color: #965A38;
+}
+
+[data-vegetable] {
+  color: green;
+}
+
+[data-vegetable=liquid] {
+  color: blue;
+  background-color: goldenrod;
+}
+
+[data-vegetable~=spicy] {
+  color: orange;
+}
+
+[data-quantity^=optional] {
+  opacity: 0.5;
+}
+
+li[data-perf] {
+  padding: 3px 3px 3px 34px;
+  margin-bottom: 12px;
+  list-style-position: inside;
+}
+
+ol {
+  padding: 0;
+}
+
+li[lang^=en] {
+   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/en-GB.png") 5px center no-repeat;
+ }
+
+li[lang^=de] {
+   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/de.png") 5px center no-repeat;
+ }
+
+li[lang^=es] {
+   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/es.png") 5px center no-repeat;
+ }
