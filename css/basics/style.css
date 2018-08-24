@@ -117,3 +117,16 @@ a:hover {
   color: black;
 }
 
+div.pseudo li {
+  color: #222222;
+}
+
+div.pseudo li:nth-of-type(odd) a {
+  color: #111111;
+  font-weight: bold;
+}
+
+div.pseudo li:nth-of-type(even) a {
+  color: #999999;
+}
+
