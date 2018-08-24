@@ -130,3 +130,27 @@ div.pseudo li:nth-of-type(even) a {
   color: #999999;
 }
 
+
+div.combi ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+div.combi ul a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  background-color: red;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+div.combi ul a:hover {
+  color: red;
+  background-color: black;
+}
+
+div.combi h1 + p {
+  font-weight: bold;
+  color: blue;
+}
