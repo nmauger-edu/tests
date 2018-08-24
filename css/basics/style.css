@@ -107,3 +107,13 @@ li[lang^=de] {
 li[lang^=es] {
    background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/es.png") 5px center no-repeat;
  }
+
+a {
+  color: blue;
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+}
+
