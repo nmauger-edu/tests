@@ -1,0 +1,6 @@
+### Some Tests on CSS.
+
+Next todo : https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance
+
+
+
