@@ -249,3 +249,29 @@ div.important p {
   padding: 5px;
 
 }
+
+.notset {
+  color: unset;
+}
+
+body {
+  color: green;
+}
+
+div.inheritance .my-class-1 a {
+  color: inherit;
+}
+
+/* inheritance tests */
+div.inheritance .my-class-2 a {
+  color: initial;
+}
+
+div.inheritance .my-class-2 a {
+  color: initial;
+}
+
+div.inheritance .my-class-3 a {
+  color: unset;
+}
+
